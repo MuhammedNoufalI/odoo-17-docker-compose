@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+asset_category,asset.category,model_asset_category,,1,1,1,1
+asset_detail,asset.detail,model_asset_detail,,1,1,1,1
+asset_location,asset.location,model_asset_location,,1,1,1,1
+asset_move,asset.move,model_asset_move,,1,1,1,1
+asset_history,asset.history,model_asset_history,,1,1,1,1
+asset_reassign_wizard,asset.reassign.wizard,model_asset_reassign_wizard,,1,1,1,1
+asset_asset_specification,asset.specification,model_asset_specification,,1,1,1,1

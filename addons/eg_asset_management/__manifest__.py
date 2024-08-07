@@ -1,0 +1,30 @@
+{
+    'name': 'Asset Management',
+    'version': '17.1.0.0',
+    'category': 'Human Resources/Employees',
+    'summary': 'Asset Management',
+    'author': 'INKERP',
+    'maintained': 'NBL',
+    'website': 'https://www.inkerp.com/',
+    'depends': ['hr', 'base_setup',
+                'phone_validation',
+                'mail',
+                'resource',
+                'web'],
+
+    'data': [
+        'data/ir_sequence.xml',
+        'security/ir.model.access.csv',
+        'wizard/asset_reassign_views.xml',
+        'views/asset_category_view.xml',
+        'views/asset_detail_view.xml',
+        'views/asset_location_view.xml',
+        'views/asset_move_view.xml',
+    ],
+
+    'images': ['static/description/banner.png'],
+    'license': "OPL-1",
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
